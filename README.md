@@ -28,8 +28,8 @@ A clean, modular Java console-based e-commerce application built with **Maven**,
 
 | Pattern               | Usage Description                                                         |
 |----------------------|-----------------------------------------------------------------------------|
-| **Factory**           | Centralized object creation (`ProductFactory`, `CustomerFactory`)          |
-| **Builder**           | Fluent object construction for `Customer` and (optionally) complex products|
+| **Factory**           | Centralized object creation (`ProductFactory`)                             |
+| **Builder**           | Fluent object construction for complex products                            |
 | **Strategy**          | Shipping logic defined by interface to allow flexible implementation       |
 | **Single Responsibility** | Each class has one well-defined responsibility                        |
 | **Open/Closed**       | New product types can be added without modifying existing code             |
